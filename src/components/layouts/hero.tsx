@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { motion } from "framer-motion";
+import WaveText from "../ui/wave-text";
 
 const heroVariants = {
   hidden: {
@@ -28,8 +29,9 @@ export default function Hero() {
           animate="visible"
           className="text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl  text-blue-400 font-bold"
         >
-          Hi there, I'm LE VIET NAM 👋
+          <WaveText text="Hi there, I'm LE VIET NAM " />
         </motion.h1>
+
         <motion.p
           variants={heroVariants}
           initial="hidden"
