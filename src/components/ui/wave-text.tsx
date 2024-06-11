@@ -36,9 +36,10 @@ const WaveText = ({ text }: { text: string }) => {
           animate="visible"
           className="inline-block"
         >
-          {char === " " ? "\u00A0" : char}
+          {char === " " ? "\u00A0" : char }
         </motion.span>
       ))}
+      👋
     </div>
   );
 };
