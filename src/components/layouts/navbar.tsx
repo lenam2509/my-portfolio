@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { FaPhoneAlt, FaFacebook, FaDiscord } from "react-icons/fa";
+import { SiZalo } from "react-icons/si";
 
 export default function Navbar() {
   return (
@@ -7,13 +9,14 @@ export default function Navbar() {
         <Link className="text-md sm:text-2xl  font-bold text-blue-500" href="/">
           LE VIET NAM
         </Link>
-        <div className="flex gap-4 text-sm sm:text-lg font-semibold text-blue-400">
-          <Link href="/">
-            About
-            <p className="w-10 mx-auto h-1 bg-blue-300"></p>
+        <div className="flex items-center gap-4 text-sm sm:text-lg font-semibold text-blue-400">
+          <Link href="https://zalo.me/0355019207">
+            <SiZalo size={30} />
           </Link>
-          <Link href="/skills">Skills</Link>
-          <Link href="/projects">Projects</Link>
+          <div className="flex items-center gap-1">
+            <FaPhoneAlt size={25} />
+            <span>0355019207</span>
+          </div>
         </div>
       </nav>
     </header>
