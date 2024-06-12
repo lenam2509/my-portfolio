@@ -3,6 +3,7 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/layouts/navbar";
+import ToastProvider from "@/components/ui/toasttify";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -28,7 +29,7 @@ export default function RootLayout({
         )}
       >
         <Navbar />
-        {children}
+        <ToastProvider>{children}</ToastProvider>
       </body>
     </html>
   );
