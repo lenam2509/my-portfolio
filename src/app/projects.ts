@@ -12,13 +12,13 @@ export const projects = [
 
   {
     id: 2,
-    name: "J&6 Jewelry Shop",
+    name: "PEOPLE BLOG",
     description:
-      "This is an online jewelry selling website created by myself. I use React, Nodejs and Mongodb to create it. It has functions such as product purchase, payment, product management, invoice management, has 2 roles: admin and user, admin page, login and register with google.",
-    image: "/project1.png",
+      "This is a project for me to practice with famous React libraries such as zustand, react-hook-form, react-querry, zod, tinyMCE editor and even MERN STACK with full CRUD, authentication and comment features",
+    image: "/project2.png",
     technologies: ["React", "Nodejs", "Mongoodb"],
-    source: "",
-    demo: "",
+    source: "https://github.com/lenam2509/blog-app",
+    demo: "https://blog-app-client-two.vercel.app/",
   },
 
   {

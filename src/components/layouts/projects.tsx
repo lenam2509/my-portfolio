@@ -65,7 +65,7 @@ export default function MyProjects() {
               <h3 className="text-xl my-2 text-center font-bold text-blue-500">
                 {project.name}
               </h3>
-              <p className="text-gray-600 text-lg font-semibold">
+              <p className="text-gray-600 text-lg font-semibold h-[200px] overflow-y-scroll">
                 {project.description}
               </p>
               <div className="flex gap-4 mt-4">
@@ -81,13 +81,17 @@ export default function MyProjects() {
               <div className="flex gap-4 mt-2">
                 <Link
                   href={project.demo}
-                  className=" underline font-bold text-blue-400  "
+                  className=" underline font-bold text-blue-400"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Demo
                 </Link>
                 <Link
                   href={project.source}
                   className=" underline font-bold text-blue-400"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Source
                 </Link>
