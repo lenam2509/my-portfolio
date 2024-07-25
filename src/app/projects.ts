@@ -23,12 +23,12 @@ export const projects = [
 
   {
     id: 3,
-    name: "J&6 Jewelry Shop",
+    name: "Manga Reader App",
     description:
-      "This is an online jewelry selling website created by myself. I use React, Nodejs and Mongodb to create it. It has functions such as product purchase, payment, product management, invoice management, has 2 roles: admin and user, admin page, login and register with google.",
-    image: "/project1.png",
-    technologies: ["React", "Nodejs", "Mongoodb"],
-    source: "",
-    demo: "",
+      "This is an online comic reading website that I built myself using nextjs with Otruyen.com's API. It has the following functions: read stories, find stories by name, view by genre, pagination, searchParams, server components.",
+    image: "/project3.png",
+    technologies: ["Nextjs", "Tailwindcss", "Otruyen API"],
+    source: "https://github.com/lenam2509/truyen-tranh-app",
+    demo: "https://truyen-tranh-app-client.vercel.app/",
   },
 ];
