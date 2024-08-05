@@ -26,9 +26,19 @@ export const projects = [
     name: "Manga Reader App",
     description:
       "This is an online comic reading website that I built myself using nextjs with Otruyen.com's API. It has the following functions: read stories, find stories by name, view by genre, pagination, searchParams, server components.",
-    image: "/project3.png",
+    image: "/project4.png",
     technologies: ["Nextjs", "Tailwindcss", "Otruyen API"],
     source: "https://github.com/lenam2509/truyen-tranh-app",
     demo: "https://truyen-tranh-app-client.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Movies App",
+    description:
+      "Online movie viewing website, with features such as movie filtering, movie searching, viewing by type, viewing by country, pagination, all data is taken from OPhim APIs. The website is made with nextjs and tailwindcss with server component and data caching.",
+    image: "/project3.png",
+    technologies: ["Nextjs", "Tailwindcss", "OPhim API"],
+    source: "https://github.com/levy2509/my-movie-app",
+    demo: "https://my-movie-app-chi.vercel.app/",
   },
 ];
